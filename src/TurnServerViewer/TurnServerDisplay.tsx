@@ -58,7 +58,7 @@ class TurnServerDisplay extends React.Component<TurnServerDisplayProps, TurnServ
         const msRemaining = expiresAt - new Date().getTime()
 
         return (
-            <Box className="mb-3" sx={{ overflowX: 'auto' }}>
+            <Box className="mb-3" sx={{overflowX: 'auto'}}>
                 <Paper sx={{padding: 2}} elevation={4}>
 
                     <div style={{textAlign: 'center', marginBottom: '1rem'}}>

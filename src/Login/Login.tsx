@@ -105,7 +105,7 @@ class Login extends React.Component<{}, LoginState> {
                                 to="/turn"
                                 variant="contained"
                                 color="primary"
-                                className="mt-2 buttonWithHover"
+                                className="mt-2"
                                 disabled={disableLoginButton}
                                 endIcon={<ArrowForwardIcon/>}>
                             Authenticate

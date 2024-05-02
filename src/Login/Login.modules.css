@@ -27,13 +27,3 @@
         opacity: 0;
     }
 }
-
-.buttonWithHover {
-    margin-top: 20px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease; /* Add transition for smooth effect */
-}
-
-.buttonWithHover:hover {
-
-}

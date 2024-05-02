@@ -12,11 +12,11 @@ import 'react-toastify/dist/ReactToastify.css';
 const router = createHashRouter([
     {
         path: "/",
-        element: <Login />,
+        element: <Login/>,
     },
     {
         path: "/turn",
-        element: <TurnServerViewer />
+        element: <TurnServerViewer/>
     }
 ]);
 
@@ -25,7 +25,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <ThemeProvider theme={theme}>
-        <RouterProvider router={router} />
-        <ToastContainer />
+        <RouterProvider router={router}/>
+        <ToastContainer/>
     </ThemeProvider>
 );

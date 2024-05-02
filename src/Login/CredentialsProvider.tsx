@@ -49,16 +49,26 @@ class RegionSelector extends React.Component<CredentialsProviderProps, Credentia
                 <TextField type="text" label="Access Key*" className="mb-2"
                            onChange={this.accessKeyChanged}
                            value={this.state.accessKey}
-                           InputLabelProps={{style : {color : '#aab'} }}
-                           InputProps={{style : {color : 'white', backgroundColor: '#232F3E'} }}
+                           InputLabelProps={{style: {color: '#aab'}}}
+                           InputProps={{
+                               style: {
+                                   color: 'white',
+                                   backgroundColor: '#232F3E'
+                               }
+                           }}
                 />
 
                 <TextField type="password" label="Secret Key*"
                            className="mb-2"
                            onChange={this.secretKeyChanged}
                            value={this.state.secretKey}
-                           InputLabelProps={{style : {color : '#aab'} }}
-                           InputProps={{style : {color : 'white', backgroundColor: '#232F3E'} }}
+                           InputLabelProps={{style: {color: '#aab'}}}
+                           InputProps={{
+                               style: {
+                                   color: 'white',
+                                   backgroundColor: '#232F3E'
+                               }
+                           }}
                 />
 
                 <TextField type="password"
@@ -66,8 +76,13 @@ class RegionSelector extends React.Component<CredentialsProviderProps, Credentia
                            className="mb-2"
                            onChange={this.sessionTokenChanged}
                            value={this.state.sessionToken}
-                           InputLabelProps={{style : {color : '#aab'} }}
-                           InputProps={{style : {color : 'white', backgroundColor: '#232F3E'} }}
+                           InputLabelProps={{style: {color: '#aab'}}}
+                           InputProps={{
+                               style: {
+                                   color: 'white',
+                                   backgroundColor: '#232F3E'
+                               }
+                           }}
                 />
             </Stack>
         );
