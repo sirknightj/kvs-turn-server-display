@@ -64,7 +64,7 @@ class TurnServerDisplay extends React.Component<TurnServerDisplayProps, TurnServ
                     <div style={{textAlign: 'center', marginBottom: '1rem'}}>
                         {this.state.msRemaining ?
                             <p>Session expires
-                                at {this.props.fetchedAt.toLocaleString()} (in {Math.floor(msRemaining / 1000)}s)</p>
+                                at {new Date(expiresAt).toLocaleString()} (in {Math.floor(msRemaining / 1000)}s)</p>
                             :
                             <p style={{color: 'red'}}>Expired!</p>
                         }
