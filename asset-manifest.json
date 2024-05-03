@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kvs-turn-server-display/static/css/main.1fb8dfd9.css",
+    "main.js": "/kvs-turn-server-display/static/js/main.f0b55fca.js",
+    "index.html": "/kvs-turn-server-display/index.html",
+    "main.1fb8dfd9.css.map": "/kvs-turn-server-display/static/css/main.1fb8dfd9.css.map",
+    "main.f0b55fca.js.map": "/kvs-turn-server-display/static/js/main.f0b55fca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fb8dfd9.css",
+    "static/js/main.f0b55fca.js"
+  ]
+}
