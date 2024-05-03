@@ -1,3 +1,12 @@
+<div align="center">
+
+  [![pages-build-deployment](https://github.com/sirknightj/kvs-turn-server-display/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/sirknightj/kvs-turn-server-display/actions/workflows/pages/pages-build-deployment)
+  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sirknightj/kvs-turn-server-display/issues)
+  [![HitCount](https://hits.dwyl.com/sirknightj/kvs-turn-server-display.svg)](https://hits.dwyl.com/sirknightj/kvs-turn-server-display)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
+</div>
+
 # KVS TURN Server Displayer
 
 This repository hosts a web application developed in ReactJS utilizing TypeScript, designed to facilitate WebRTC (Real-Time Communication) applications seamlessly integrating with Amazon Kinesis Video Streams TURN servers.
